@@ -1,0 +1,238 @@
+
+#qqq {
+  margin-top: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Montserrat";
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Merriweather', serif;
+}
+
+h1 {
+  font-size: clamp(1em, 5vw, 3.5em);
+}
+
+p {
+  color: #323232;
+  /* font-size: max(1.2rem, 1.2vw); */
+}
+
+/* Headings */
+
+.big-heading {
+  /* font-family: 'Merriweather', serif;
+  font-size: 3.5em; */
+  line-height: 1.5;
+}
+
+.home {
+  background-image: url('../images/home-page-bg.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.small-heading {
+  font-family: 'Roboto', sans-serif;
+    font-size: clamp(0.5em, 2vw, 1.5em);
+}
+
+.name-of-deceased {
+    font-family: 'Merriweather', serif;
+  /* font-family: 'Pacifico', cursive; */
+  font-size: clamp(1em, 5vw, 3.5em);
+  padding-bottom: 5%;
+}
+
+.section-heading {
+  font-size: 3em;
+  line-height: 1.5;
+}
+
+/* Containers */
+
+
+
+/* Sections */
+
+.colored-section {
+  /* background-color: #2d3729; */
+  color: #fff;
+}
+
+.white-section {
+  background-color: #fff;
+}
+
+/* Navigation Bar */
+
+.navbar {
+  padding: 0;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2.5em;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 10px 18px;
+}
+
+.nav-link {
+  font-size: 1.5em;
+  font-family: 'Roboto', sans-serif;
+}
+
+/* Buttons */
+
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+/* Title Section */
+
+#title {
+  /* background-color: #2d3729; */
+  color: #fff;
+  text-align: left;
+}
+
+#title .container-fluid {
+  padding: 1% 15% 7%;
+}
+
+/* Title Image */
+
+.title-image {
+  padding-top: 20px;
+  width: 100%;
+  right: 30%;
+  border: solid 10px;
+}
+
+/* Features Section */
+
+#features {
+  position: relative;
+}
+
+.feature-title {
+  font-size: 2em;
+}
+
+.feature-box {
+  padding: 4.5%;
+}
+
+.icon {
+  color: #2d3729;
+  margin-bottom: 5%;
+}
+
+.icon-youtube {
+  color: #c4302b;
+}
+
+.icon:hover {
+  color: #2d3729;
+}
+
+/* Testimonial Section */
+
+#testimonials {
+  background-color: #2d3729;
+}
+
+.testimonial-text {
+  font-size: 3em;
+  line-height: 1.5;
+}
+
+.testimonial-image {
+
+}
+
+
+#press {
+  background-color: #ef8172;
+  padding-bottom: 3%;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/* Gallary Section */
+
+#pricing {
+  padding: 5% 5%;
+}
+
+.price-text {
+  font-size: 3em;
+  line-height: 1.5;
+}
+
+.sliding-column {
+  padding: 1% 1%;
+}
+
+.name-of-deceased-cards {
+  font-family: 'Pacifico', cursive;
+  font-size: 2em;
+  padding-bottom: 5%;
+}
+
+#sss {
+  padding: 0;
+  margin: 0;
+}
+
+/* Contacts us Section */
+.contact-us {
+  padding: 5% 0;
+}
+
+/* Footer Section */
+
+
+.social-icon {
+  margin: 20px 10px;
+}
+
+@media (max-width: 1028px) {
+
+  #title {
+    text-align: center;
+  }
+
+  .title-image {
+    position: static;
+    transform: rotate(0);
+  }
+}
+
+.logo {
+  width: 10%;
+}
+
+.memories {
+  padding: 5% 0 0 0;
+}
+
+.footer-p {
+  font-size: 0.7em;
+}
+
+footer {
+  margin-top: 5%;
+}
